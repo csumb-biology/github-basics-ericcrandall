@@ -55,7 +55,8 @@ for i in range(len(ProtSeq)):
     window_counter+=1
 
 #Graphing
-pyplot.plot(window_counters,HpValues)
-pyplot.xlabel('Window')
-pyplot.ylabel('Hydropathy')
-pyplot.savefig(OutFileName)
+#pyplot.plot(window_counters,HpValues)
+#pyplot.xlabel('Window')
+#pyplot.ylabel('Hydropathy')
+#pyplot.savefig(OutFileName)
+print OutFileName
